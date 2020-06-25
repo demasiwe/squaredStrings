@@ -1,0 +1,8 @@
+[debug] Acquiring lock on file C:\Users\d\IdeaProjects\squaredStrings\project\target\.sbt-compilation-infos\squaredstrings-test\.sbt-idea-lock ...
+[error] C:\Users\d\IdeaProjects\squaredStrings\src\test\scala\SquaredStringTest.scala:4:7: missing argument list for method test in trait FunSuiteLike
+[error] Unapplied methods are only converted to functions when a function type is expected.
+[error] You can make this conversion explicit by writing `test _` or `test(_,_)(_)(_)` instead of `test`.
+[error]   test("An empty string is squared string")
+[error]       ^
+[error] one error found
+[debug] Releasing lock on file C:\Users\d\IdeaProjects\squaredStrings\project\target\.sbt-compilation-infos\squaredstrings-test\.sbt-idea-lock.
