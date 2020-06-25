@@ -21,7 +21,7 @@ class EncoderSuite extends FunSuite {
 
     assert(encoder.code("I.was.going.fishing.that.morning.at.ten.o'clock")
       ==
-    "c.nhsoI\\nltiahi.\\noentinw\\ncng.nga\\nk..mg.s\\n\\voao.f.\\n\\v'trtig".replace("\\v", 11.toChar.toString))
+      "c.nhsoI\\nltiahi.\\noentinw\\ncng.nga\\nk..mg.s\\n\\voao.f.\\n\\v'trtig".replace("\\v", 11.toChar.toString))
   }
 
   test("Example for decoding from codewars task") {
@@ -35,6 +35,6 @@ class EncoderSuite extends FunSuite {
   test("'Get.High' will be encoded to 'g.G\\nhHe\n\\vit'".replace("\\v", 11.toChar.toString)) {
     val encoder: Encoder = new Encoder()
 
-    assert(encoder.code("Get.High") == "g.G\\nhHe\\n\\vit".replace("\\v",11.toChar.toString))
+    assert(encoder.code("Get.High") == "g.G\\nhHe\\n\\vit".replace("\\v", 11.toChar.toString))
   }
 }

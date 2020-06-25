@@ -1,5 +1,3 @@
-import scala.collection.mutable.ListBuffer
-
 object App extends App {
   val encoder: Encoder = new Encoder()
 
